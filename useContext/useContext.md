@@ -27,20 +27,19 @@ Use Context when:
 
 
 #### Step 1:
+createContext - Creates a global container.
 
-    createContext - Creates a global container.
-
-    ```
+```
         import { createContext } from 'react';
 
         export const ThemeContext = createContext();
-    ```
+```
 
 #### Step 2:
 
-    Create provider - Provider wraps components and provides shared data.
+Create provider - Provider wraps components and provides shared data.
 
-    ```
+```
     import { useState } from "react";
     import { ThemeContext } from "./ThemeContext";
 
@@ -58,13 +57,12 @@ Use Context when:
       );
     };
 
-    ```
+```
 
 #### Step 3:
+Wrap App with Provider - Now any child component can access the context.
 
-    Wrap App with Provider - Now any child component can access the context.
-
-    ```
+```
     import { ThemeProvider } from "./ThemeProvider";
 
     function App() {
@@ -76,13 +74,12 @@ Use Context when:
     }
 
     export default App;
-    ```
+```
 
 #### Step 4:
+Consume Context (useContext)
 
-    Consume Context (useContext)
-
-    ```
+```
     import { useContext } from "react";
     import { ThemeContext } from "./ThemeContext";
 
@@ -101,4 +98,4 @@ Use Context when:
     );
     };
 
-    ```
+```
