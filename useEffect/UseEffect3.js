@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 
 function UseEffect3() {
   const [count, setCount] = useState(0);
-  const [calculation, setCalculation] = useState(0);
+  const [calculation, setCalculation] = useState(1);
 
   useEffect(() => {
     setCalculation(() => count * 2);
