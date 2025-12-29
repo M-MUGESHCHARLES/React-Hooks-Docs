@@ -16,7 +16,7 @@ useEffect accepts two arguments. The second argument is optional.
       });
 ```
 
-1. An empty array:
+2. An empty array:
 
 ```
    useEffect(() => {
@@ -24,7 +24,7 @@ useEffect accepts two arguments. The second argument is optional.
     }, []);
 ```
 
-1. Props or state values:
+3. Props or state values:
 
 ```
     useEffect(() => {
