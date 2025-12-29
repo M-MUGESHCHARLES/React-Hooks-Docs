@@ -30,9 +30,9 @@ Use Context when:
 createContext - Creates a global container.
 
 ```
-        import { createContext } from 'react';
+    import { createContext } from 'react';
 
-        export const ThemeContext = createContext();
+    export const ThemeContext = createContext();
 ```
 
 #### Step 2:
