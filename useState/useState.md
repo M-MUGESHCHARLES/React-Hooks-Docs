@@ -9,6 +9,10 @@ useState accepts an initial state and returns two values:
 
 The useState Hook can be used to keep track of strings, numbers, booleans, arrays, objects, etc,.
 
-###### Updating Objects and Arrays in State
+```
+ const [state, setState] = useState(initialValue)
+```
+
+### Updating Objects and Arrays in State
 When state is updated, the entire state gets overwritten.
 We can use the JavaScript spread operator to help us.
