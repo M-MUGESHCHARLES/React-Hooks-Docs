@@ -10,11 +10,11 @@ The `useReducer` Hook is similar to the useState Hook.
 
 ### When to use useReducer :
 
-    - Complex state
-        Example : state management during data fetching (loading, success, error).
-    - Multiple related values
-    - Predictable state updates
-    - Redux-like logic inside component
+- Complex state
+    Example : state management during data fetching (loading, success, error).
+- Multiple related values
+- Predictable state updates
+- Redux-like logic inside component
 
 ### Core Parts :
 
